@@ -1,5 +1,7 @@
 export default function Heading() {
     return(
-        <p>This is the Heading</p>
+        <div className="heading-container">
+            <h1 className="heading">New York, NY, USA</h1>
+        </div>
     );
 }

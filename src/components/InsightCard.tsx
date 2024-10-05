@@ -1,5 +1,11 @@
-export default function InsightCard() {
+interface insightCardProps {
+    insightLabel: string;
+}
+
+export default function InsightCard({insightLabel}: insightCardProps) {
     return(
-        <p>This is an Insight Card</p>
+        <div className="insight-card-container">
+            <p className="insight-card-label">{insightLabel}</p>
+        </div>
     );
 }
